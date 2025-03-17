@@ -1,0 +1,42 @@
+@charset "UTF-8";
+form{
+    width: 700px;
+    margin: auto;
+}
+input{
+    font-family: Cambria;
+    font-size:12pt;
+    font-weight: normal;
+    background-color: rgba(255,255,255,.8);
+}
+input:hover{
+    background: #dddddd;
+}
+fieldset legend{
+    font-family: Cambria;
+    font-size:12pt;
+    font-weight: bold;
+    color:blue;
+}
+fieldset#sexo{
+    width:150px;
+    border-color: #dddddd;
+}
+fieldset{
+    border-color: blue;
+}
+fieldset#sexo{
+    margin-left: 35px;
+}
+fieldset#sexo legend{
+    font-family: Cambria;
+    font-size:12pt;
+    font-weight: normal;
+    color:black;
+}
+fieldset#usuario{
+    background: url("../_imagens/usuario.png") no-repeat 95% 95%;
+}
+fieldset#endereco{
+    background: url("../_imagens/endereco.png") no-repeat 95% 95%;
+}
