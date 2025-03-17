@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aulas de HTML5</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilos.css"/>
+    </head>
+    <script src="javascript/funcoes.js"></script>
+    <body>  
+        <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h3 id="data"></h3> 
+                <h1>Gil-Inform,Lda</h1>
+                <h2><i>MSc Gilberto Cunha!</i></h2>
+            </hgroup>
+            <img id="icone" src="imagens/computador.png"/>
+        </header>
+        <br><br> 
+        <nav id="menu">
+            <h1> Menu Principal </h1>
+            <ul type="square">
+            <li onmouseover="mudaFoto('imagens/computador.png')" onmouseout="mudaFoto('imagens/computador.png')">
+                <a href="index.html">HOME</a></li>
+            <li onmouseover="mudaFoto('imagens/foto.png')" onmouseout="mudaFoto('imagens/computador.png')">
+                <a href="paginas/imagens.html">IMAGENS</a></li>
+            <li onmouseover="mudaFoto('imagens/video.png')" onmouseout="mudaFoto('imagens/computador.png')">
+                <a href="paginas/videos.html">VÍDEOS</a></li>
+            <li onmouseover="mudaFoto('imagens/audio.png')" onmouseout="mudaFoto('imagens/computador.png')">
+                <a href="paginas/musicas.html">MÚSICAS</a></li>
+            <li onmouseover="mudaFoto('imagens/google.png')" onmouseout="mudaFoto('imagens/computador.png')">
+                <a href="http://www.google.com.br/" target="_blank">GOOGLE</a></li>
+            <li onmouseover="mudaFoto('imagens/contacto.png')" onmouseout="mudaFoto('imagens/computador.png')">
+                <a href="paginas/faleConosco.html">FALE CONOSCO</a></li>
+            <li onmouseover="mudaFoto('imagens/sobreGIL.png')" onmouseout="mudaFoto('imagens/computador.png')">
+                <a href="paginas/sobre.html">SOBRE</a></li>
+            </ul>    
+        </nav>     
+    
+    <section id="corpo">
+        <article id="noticiaPrincipal"> 
+        <header id="cabecalhoArtigo">
+            <h1>INTRODUÇÃO A INFORMÁTICA</h1>
+        </header>
+        <p><span style="text-decoration:underline; font-weight:bold; color:black">Informática:</span> É a ciência que estuda o processamento automático da informação por meio do computador.</p>
+        <p><span style="text-decoration:underline; font-weight:bold; color:black">Computador:</span> É uma máquina electrónica que recebe dados através dos periféricos de entrada, processa esses dados realizando operações lógicas e aritméticas para resolver um determinado problema, transformando-os em outros dados a que se chama de informação. Tal informação é enviada aos periféricos de saída ou simplesmente armazenada. O computador permite realizar tarefas ou resolver problemas em menos tempo e com menos esforço. Permite também reduzir espaço para armazenamento de Informação.</p>
+
+    <figure class="configFoto">
+        <img src="_imagens/gil.jpg"/>
+        <figcaption>
+            Gilberto Cunha
+        </figcaption>
+    </figure>
+        
+     
+     <h1>INTRODUÇÃO A LINGUAGEM DE PROGRAMAÇÃO</h1>
+<p>As linguagens humanas (como por exemplo o Português, Francês, Inglês, etc), servem para a comunicação entre dois indivíduos. No caso das linguagens de programação servem para estabelecer a comunicação entre o Homem e o computador, permitindo assim o processamento automático da informação.</p>
+<p><span style="text-decoration:underline; font-weight:bold; color:black">Linguagem</span>: É um código de comunicação formado por léxico, sintaxe e semântica.</p>
+<p><span style="text-decoration:underline; font-weight:bold; color:black">Léxico</span>>: É um conjunto de vocábulos disponíveis numa linguagem.</p>
+<p><span style="text-decoration:underline; font-weight:bold; color:black">Sintaxe</span>>: É a forma de escrever os vocábulos.</p>
+<p><span style="text-decoration:underline; font-weight:bold; color:black">Semântica</span>: É o significado da combinação dos vocábulos.</p>
+
+<p><span style="text-decoration:underline; font-weight:bold; color:black">Linguagem de Programação</span>: É um conjunto de palavras reservadas e regras, sintácticas e semânticas, usadas para descrever a execução de um algoritmo no computador.</p>
+
+<p><span style="text-decoration:underline; font-weight:bold; color:black">Programar</span>: É criar um conjunto de instruções ou comandos numa sequência lógica, que o computador interpreta para poder executar uma tarefa ou resolver um determinado problema. Essas instruções são escritas utilizando uma determinada linguagem de programação.</p>
+    </article>
+    </section> 
+    
+    <aside id="lateral">
+    <p>TIC (Tecnologias da Informação e Comunicação)</p>
+<p>A necessidade do homem se comunicar já existe a muitos séculos. Começou com sinais de fumo usado pelos índios, aparecendo depois o pombo-correio (Nos tempos em que os reis travavam grandes batalhas para conquistarem grandes territórios, além dos mensageiros usavam também o pombo-correio para levar mensagens. Aproveitando-se da característica que os pombos sempre voltam ao seu próprio ninho), telefone de dois copos e um fio ligados entre eles, tambores, Cornetas de chifres, cartas, etc. Com o aparecimento das tecnologias a comunicação da informação tornou-se mais fácil e mais rápida. </p>
+<p>TIC: É o conjunto das tecnologias que permitem a comunicação da informação entre as pessoas por meio de equipamentos tecnológicos, como por exemplo: Celular, Rádio, Televisão, Computador, etc.</p>
+    
+        
+    <pre><code>
+    #include&lt;iostream&gt;
+    using std::cout;
+    
+    int main(){
+        cout<< "Olá Mundo!";
+        
+        cin.get();
+        return 0;
+    }
+
+    </code></pre>
+    </aside>
+        
+    <footer id="rodape">
+        <p>Copyright &copy; 2025 - by Prof. GIlberto Cunha </p>
+        <nav>           
+            <a href="https://www.facebook.com/gilberto.cunha.7" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com/gilbertocunha77/" target="_blank">Instagram</a>
+        </nav><br>
+    </footer>
+        
+    </div>    
+    </body>
+</html>
