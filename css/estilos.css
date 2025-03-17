@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/*Formatação do corpo da página*/
+body{
+    background-color: white; 
+    color: rgba(0,0,0,1);
+}
+div#interface {
+    width:1400px;
+    background-color: white; 
+    margin: 0px auto 0px auto;
+    padding: 10px 10px 10px 10px;
+   /* box-shadow: 0px 0px 5px black;*/
+}
+section#corpo{
+    display: block;
+    width: 950px;
+    float: left; /*Posiciona o corpo a esquerda*/
+    border-right: 1px solid #606060;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+article#noticiaPrincipal h1{
+    font-family: Cambria;
+    font-size:20pt;
+    color:red;
+    text-shadow: none;
+    text-align: center;   
+}
+header#cabecalhoArtigo h1{ 
+    font-family: Cambria;
+    font-size:30pt;
+    color:red;
+    text-shadow: none;
+    text-align: center;   
+}
+aside#lateral{
+    display: block;
+    width: 410px;
+    float: left; /*Posiciona a lateral a direita*/
+    padding:10px;
+}
+footer#rodape{
+    clear: both; /*Limpa o posicionamento do float*/
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    margin: 0px 0px -5px 0px;
+}
+footer#rodape p{
+    text-align: center;
+    font-family: Cambria;
+    font-size: 12pt;
+    color:blue;
+}
+footer#rodape a{
+    font-family: Cambria;
+    font-size: 12pt;
+    text-decoration: underline;
+    color:blue; 
+    font-weight: normal;
+    text-shadow: none; 
+   
+}
+footer#rodape nav {
+    text-align: center;
+}
+/*Formatação do título h1*/
+h1{
+    font-family: Cambria;
+    font-size:40pt;
+    color:blue;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+h2{
+    font-family: Cambria;
+    font-size: 20pt;
+    color:blue;
+}
+h3{
+    font-family: Cambria;
+    font-size: 14pt;
+    color:blue;
+    text-align: right;
+    background-color: #dddddd;
+    text-transform: uppercase;
+    margin-left: 1050px;
+   
+}
+
+p{
+    font-family: Cambria;
+    font-size: 14pt;
+    text-align: justify; 
+    text-indent: 50px;
+}
+
+pre{
+   font-size: 12pt; 
+}
+            
+figure.configFoto img{
+    width: 30%;
+    height:10%;
+    border: 6px solid blue;
+}
+figure.configFoto figcaption{
+    color: darkblue;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 1225px;
+    top: 120px;
+}
+header#cabecalho{
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    margin: -5px 0px -10px 0px;
+}
+/*Formatação do Menu*/
+nav#menu{
+    display: block; /*Mostra em bloco*/
+}
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    top:10px;
+    left:20px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu li:hover{
+    background-color: #606060;
+}
+nav#menu h1{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color:blue; 
+    font-family:cambria;
+    font-size: 14pt;
+    font-weight:bold;
+    text-shadow: 1px 1px 1px black;
+}
